@@ -1,5 +1,6 @@
 module.exports = { 
   user: 'ceiba',
   password: 'ceiba',
-  database: 'nodemysqlivan'
+  host: 'localhost',
+  database: 'pruebaingresoceiba'
 }

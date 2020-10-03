@@ -1,4 +1,5 @@
 const Pago = require('../models/pago.model');
+require("dotenv").config();
 
 module.exports = {
   async list(req, res) {
@@ -9,12 +10,12 @@ module.exports = {
       res.status(400).json(err);
     }
   },
-  async createorupdate(req, res) {
+  async create(req, res) {
     try {
       const data = req.body;
       const {documentoIdentificacionArrendatario, fechaPago, valorPagado, codigoInmueble} = req.body;
       const dateValue = fechaPago.split('/');
-      const valorArriendo = 1000000;
+      const valorArriendo = process.env.RENT;
       
       if (dateValue[0] % 2 === 0) {
         res.status(400).json({"respuesta": "lo siento pero no se puede recibir el pago por decreto de administración"});
