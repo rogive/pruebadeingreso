@@ -1,0 +1,32 @@
+{
+  "invalidDateFormat" : {
+    "documentoIdentificacionArrendatario": "1923384562",
+    "codigoInmueble": "8275",
+    "valorPagado": "200000",
+    "fechaPago": "25-02/2019"
+  },
+  "pagoParcial" : {
+    "documentoIdentificacionArrendatario": "1923284562",
+    "codigoInmueble": "8275",
+    "valorPagado": "200000",
+    "fechaPago": "25/02/2019"
+  },
+  "validDateFormat" : {
+    "documentoIdentificacionArrendatario": "1923284662",
+    "codigoInmueble": "8275",
+    "valorPagado": "200000",
+    "fechaPago": "25/02/2019"
+  },
+    "notNumericDocument" : {
+    "documentoIdentificacionArrendatario": "1A23284662",
+    "codigoInmueble": "8275",
+    "valorPagado": "200000",
+    "fechaPago": "25/02/2019"
+  },
+    "NumericDocument" : {
+    "documentoIdentificacionArrendatario": "1A23284662",
+    "codigoInmueble": "8275",
+    "valorPagado": "200000",
+    "fechaPago": "25/02/2019"
+  }
+}
