@@ -9,8 +9,5 @@ app.use(cors());
 sequelize.sync({ force: true });
 
 app.use("/api", apiRouter);
-app.get('/', (req,res) => {
-  res.status(200).send('Hello world')
-});
 
 module.exports = app;
